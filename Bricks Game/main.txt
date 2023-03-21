@@ -1,0 +1,20 @@
+package Game;
+
+import javax.swing.JFrame;
+
+public class main {
+
+	public static void main(String[] args) {
+		JFrame obj = new JFrame();//new 一個JFrame出來叫obj
+		Gameplay gamePlay = new Gameplay();//new出一個畫面Gameplay
+		
+		//設定視窗
+		obj.setBounds(10,10,700,600);//Bound視窗邊界
+		obj.setTitle("打磚塊");//Title標題
+		obj.setResizable(false);//調整視窗大小,flase為不可以調整
+		obj.setVisible(true);//設置可見視窗
+		obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//(右上角的關閉縮小案件)
+		obj.add(gamePlay);//在obj裡添加gameplay遊戲畫面
+	}
+
+}
