@@ -7,7 +7,7 @@ public class main {
 	public static void main(String[] args) {
 		JFrame obj = new JFrame();//new 一個JFrame出來叫obj
 		Gameplay gamePlay = new Gameplay();//new出一個畫面Gameplay
-		//我是更新
+		
 		//設定視窗
 		obj.setBounds(10,10,700,600);//Bound視窗邊界
 		obj.setTitle("打磚塊");//Title標題
